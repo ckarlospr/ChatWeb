@@ -83,3 +83,7 @@ C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\obj\Debug\C
 C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\obj\Debug\ChatWS.csproj.CopyComplete
 C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\obj\Debug\ChatWS.dll
 C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\obj\Debug\ChatWS.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\bin\EntityFramework.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\bin\EntityFramework.SqlServer.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\bin\EntityFramework.xml
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatWS\bin\EntityFramework.SqlServer.xml

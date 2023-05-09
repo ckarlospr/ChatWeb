@@ -1,0 +1,17 @@
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\bin\Debug\net6.0-windows\ChatDesktop.exe
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\bin\Debug\net6.0-windows\ChatDesktop.deps.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\bin\Debug\net6.0-windows\ChatDesktop.runtimeconfig.json
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\bin\Debug\net6.0-windows\ChatDesktop.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\bin\Debug\net6.0-windows\ChatDesktop.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.csproj.AssemblyReference.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.Form1.resources
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.csproj.GenerateResource.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.AssemblyInfoInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.AssemblyInfo.cs
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.csproj.CoreCompileInputs.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\refint\ChatDesktop.dll
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.pdb
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ChatDesktop.genruntimeconfig.cache
+C:\Users\ckarlos\OneDrive\Documentos\ckarlos\curses\C#\ChatWS\ChatDesktop\obj\Debug\net6.0-windows\ref\ChatDesktop.dll

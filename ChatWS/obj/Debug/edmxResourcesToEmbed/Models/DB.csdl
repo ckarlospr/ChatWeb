@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ChatDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="users" Relationship="ChatDBModel.FK__user__idState__5EBF139D" FromRole="cState" ToRole="user" />
+  </EntityType>
+  <EntityContainer Name="ChatDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cStates" EntityType="Self.cState" />
+    <EntitySet Name="users" EntityType="ChatDBModel.user" />
+    <AssociationSet Name="FK__user__idState__5EBF139D" Association="ChatDBModel.FK__user__idState__5EBF139D">
+      <End Role="cState" EntitySet="cStates" />
+      <End Role="user" EntitySet="users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idState" Type="Int32" Nullable="false" />
+    <Property Name="date_created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="city" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="cState" Relationship="ChatDBModel.FK__user__idState__5EBF139D" FromRole="user" ToRole="cState" />
+  </EntityType>
+  <Association Name="FK__user__idState__5EBF139D">
+    <End Type="ChatDBModel.cState" Role="cState" Multiplicity="1" />
+    <End Type="ChatDBModel.user" Role="user" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="user">
+        <PropertyRef Name="idState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
